@@ -1,4 +1,4 @@
-module utilities
+module github.com/NordicRest/gotiles/src/utilities
 
 go 1.20
 

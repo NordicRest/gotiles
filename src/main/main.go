@@ -2,7 +2,7 @@ package main
 
 import (
 	f "fmt";
-	u "utilities"
+	u "github.com/NordicRest/gotiles/src/utilities"
 )
 
 func main() {
