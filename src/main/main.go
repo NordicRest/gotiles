@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	f.Println("%v", u.genThreePuzzle())
+	puz :=  u.NewThreePuzzle()
+	f.Println("%v", puz)
 }

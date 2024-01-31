@@ -13,6 +13,6 @@ type ThreePuzzle struct {
 }
 
 type Puzzle struct {
-	uint8 size
+	size uint8
 	board []uint8
 }
