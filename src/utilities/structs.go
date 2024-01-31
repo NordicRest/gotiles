@@ -11,3 +11,8 @@ type FourPuzzle struct {
 type ThreePuzzle struct {
 	board [3][3]uint8
 }
+
+type Puzzle struct {
+	uint8 size
+	board []uint8
+}
