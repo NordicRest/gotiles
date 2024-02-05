@@ -6,6 +6,14 @@ import (
 )
 
 func main() {
-	puz :=  u.NewThreePuzzle()
-	f.Println("%v", puz)
+	npuz := u.NewPuzzle(3)
+	f.Println("Initial Puzzle: %v", npuz)
+	wasgood, upuz := u.MoveFromTop(npuz)
+	if wasgood {
+		f.Println("Moved from Top: %v", upuz)
+	}
+	wasgood, upuz = u.MoveFromBottom(npuz)
+	if wasgood {
+		f.Println("Moved from Bottom: %v", upuz)
+	}
 }
