@@ -11,8 +11,8 @@ func FindFirst(num int, board []int) int {
 }
 
 func CheckSolved(puz *Puzzle) bool {
-	for i := 0; i < len(puz.board) - 1; i++ {
-		if puz.board[i] != i + 1 {
+	for i := 0; i < len(puz.Board) - 1; i++ {
+		if puz.Board[i] != i + 1 {
 			return false
 		}
 	}

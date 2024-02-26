@@ -13,7 +13,11 @@ type ThreePuzzle struct {
 }
 
 type Puzzle struct {
-	size int
-	board []int
+	Size int
+	Board []int
 }
 
+type FrontierNode struct {
+	Puz *Puzzle
+	CurrentString string
+}
