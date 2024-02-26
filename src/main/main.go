@@ -16,4 +16,10 @@ func main() {
 	if wasgood {
 		f.Println("Moved from Bottom: %v", upuz)
 	}
+
+	npuz = new(u.Puzzle)
+	npuz.size = 2
+	npuz.board = []int {1, 2, 3, 0}
+
+	f.Println("Puzzle %v is solved: %b", npuz, CheckSolved(npuz))
 }

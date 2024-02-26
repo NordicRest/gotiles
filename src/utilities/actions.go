@@ -1,7 +1,5 @@
 package utilities
 
-
-
 func MoveFromTop(puz *Puzzle) (bool, *Puzzle) {
 	zeroIndex := FindFirst(0, puz.board)
 	if (zeroIndex < puz.size) {	// if the zero index is in the first row, we can't
