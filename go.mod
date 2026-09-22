@@ -1,5 +1,4 @@
 module github.com/NordicRest/gotiles
 
-go 1.18
+go 1.27
 
-require github.com/davecgh/go-spew v1.1.1 // indirect
